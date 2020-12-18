@@ -2,8 +2,11 @@
 **Yescryptr16 WebAssembly based miner**
 
 Folder "html" - file for web server (html, wasm file, js file)
+
 Folder "miner" - miner src for compile to wasmminer.wasm
+
 Folder "sample" - sample config for caddy web server
+
 Folder "wsproxy" - proxy src Go lang for working miner
 
 ## 1) How to compile wsproxy
