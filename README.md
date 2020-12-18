@@ -1,5 +1,5 @@
 # yescryptr16-wasm-miner
-Yescryptr16 WebAssembly based miner
+**Yescryptr16 WebAssembly based miner**
 
 Folder "html" - file for web server (html, wasm file, js file)
 Folder "miner" - miner src for compile to wasmminer.wasm
@@ -36,6 +36,7 @@ go version
 
 ## 2) How to compile miner
 
+**Install emcc (Emscripten Compiler Frontend)**
 ```
 #before compiling, you need to install emcc, the version of python is not lower than 3.7
 wget 'https://s3.amazonaws.com/mozilla-games/emscripten/releases/emsdk-portable.tar.gz' | tar xzf -
@@ -49,6 +50,7 @@ cd emsdk-portable
 source ./emsdk_env.sh
 ```
 
+**Compile miner**
 ```
 #now we compile the miner for the web
 cd miner
